@@ -1,0 +1,61 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+main {
+  background-color: #dae0e6;
+  /* margin: auto; */
+}
+
+#nav {
+  width: 100%;
+  min-height: 5vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  border: 2px solid goldenrod;
+  /* padding: 10px; */
+}
+
+#nav-left {
+  /* border: .5px solid red; */
+  align-self: auto;
+
+}
+
+#nav-left a {
+  /* border: .5px solid blue; */
+  padding: 10px 15px;
+  /* align-self: center; */
+
+}
+
+#reddit-logo {
+  border: .5px solid salmon;
+  margin-right: 15px;
+}
+
+#home-button {
+  align-self: stretch;
+  border: .5px solid rebeccapurple;
+}
+
+#search-box {
+
+  width: 100vh;
+  height: 4vh;
+  background: url(img/search-interface-symbol.png) no-repeat center;
+  background-position: 10px center;
+  background-color: #f6f6f6;
+  border: 0;
+  padding: 0 36px;
+  border-radius: 25px;
+  /* padding: 1vh 50vh; */
+}
